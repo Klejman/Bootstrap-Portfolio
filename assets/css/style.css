@@ -1,0 +1,181 @@
+html,
+body {
+	font-family: 'Lustria', serif;
+}
+
+/* toggle override attempt starts here*/
+
+.navbar-header-menu {
+      float: left;
+  }
+  
+      .navbar-header-menu > .navbar-nav {
+          float: left;
+          margin: 0;
+      }
+  
+          .navbar-header-menu > .navbar-nav > li {
+              float: left;
+          }
+  
+              .navbar-header-menu > .navbar-nav > li > a {
+                  padding-top: 15px;
+                  padding-bottom: 15px;
+              }
+  
+          .navbar-header-menu > .navbar-nav .open .dropdown-menu {
+              position: absolute;
+              float: left;
+              width: auto;
+              margin-top: 0;
+              background-color: #fff;
+              border: 1px solid #ccc;
+              border: 1px solid rgba(0,0,0,.15);
+              -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+              box-shadow: 0 6px 12px rgba(0,0,0,.175);
+          }
+  
+      .navbar-header-menu > .navbar-form {
+          float: left;
+          width: auto;
+          padding-top: 0;
+          padding-bottom: 0;
+          margin-right: 0;
+          margin-left: 0;
+          border: 0;
+          -webkit-box-shadow: none;
+          box-shadow: none;
+      }
+  
+          .navbar-header-menu > .navbar-form > .form-group {
+              display: inline-block;
+              margin-bottom: 0;
+              vertical-align: middle;
+          }
+  
+      .navbar-header-menu > .navbar-left {
+          float: left;
+      }
+  
+      .navbar-header-menu > .navbar-right {
+          float: right !important;
+      }
+  
+      .navbar-header-menu > *.navbar-right:last-child {
+          margin-right: -15px !important;
+      }
+      /*toggle override attempt ends here*/
+h1,
+h2,
+h3 {
+	color: #4aaaa5;
+}
+
+button.navbar-toggle {
+	background-color: white;
+	display:block;
+}
+
+label {
+	color: #555;
+}
+
+.icon {
+	width: 60px;
+	height: auto;
+	color: none;
+	border-right: none;
+}
+
+
+.box {
+	display: inline-block;
+	width: 100%;
+	height: 10%;
+	margin: 0%;
+}
+
+.project {
+	float: left;
+	position: relative;
+	top:	-10px;
+	width: 100%;
+}
+
+.project-title {
+	float: left;
+	position: relative;
+	top: -80px;
+	width: 100%;
+	height: 35px;
+	padding-top: 5px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align: center;
+}
+
+.container .text-muted {
+	padding-top: 20px;
+}
+
+.list-group {
+	margin-bottom: 0;
+}
+
+.list-group-item {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.page-header {
+	border-bottom: 2px solid #ccc;
+	margin: 20px 0 25px;
+}
+
+.page-header h1 {
+	color: #4aaaa5;
+}
+
+.navbar-default {
+	background-color: #4aaaa5;
+}
+
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #f5f5f5;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #777;
+	background-color: #ddd;
+}
+
+.navbar-default .navbar-nav .active a {
+	color: #ffffff;
+	background-color: #777;
+}
+
+.panel-title {
+	color: #4aaaa5;
+}
+
+.link-hover-color {
+	color: blue;
+}
+
+.img-thumbnail {
+	margin-bottom: 15px;
+}
+
+.btn-default {
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+.btn-default:hover {
+	color: #ffffff;
+	background-color: #777;
+}
